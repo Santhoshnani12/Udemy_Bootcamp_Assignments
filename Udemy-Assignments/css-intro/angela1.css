@@ -1,0 +1,146 @@
+body {
+	margin:0;
+	text-align: center;
+}
+
+.first-container {
+	background-color: #d0e8f2;
+	padding-top:100px; 
+	position: relative;
+}
+
+.first-cloud{
+    position: absolute;
+    right: 300px;
+    top: 70px;
+}
+
+
+.second-cloud {
+    position: absolute;
+    left: 300px;
+}
+
+h1 {
+	line-height: 2em;
+	font-weight: bold;
+}	
+h1,	h2 {
+	color: #66bfbf;
+    font-style: oblique;
+}
+
+.middle-container {
+	padding: 50px;
+	background-color: #d0e8f2;
+	position: relative;
+	height: 344px;
+}
+
+.box {
+    display: inline-block;
+    width: 20%;
+    background-color: #d9ccd1;
+    border-radius: 10px;
+}
+
+.first {
+    position: absolute;
+    left: 250px;
+
+}
+
+.second {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+
+.third {
+    position: absolute;
+    left: 750px;
+}
+
+.fourth {
+    position: absolute;
+    left: 1000px;
+    top: 250px;
+}
+
+.skill-row {
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+}
+.skill-row p {
+	line-height: 2; 
+}
+.skill-row img {
+	width: 25%;
+	float: left;
+	margin-right: 40px;
+}
+
+.text-near-image {
+	padding-top: 7px;
+}
+
+hr {
+	border: dotted 6px grey;
+	border-bottom: none;
+	width: 4%;
+}
+
+.bottom-container {
+    background-color: #d0e8f2;
+    padding: 40px 0 40px 0;
+
+}
+.btn {
+   background-color: #d0e8f2;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 0;
+   line-height: 0;
+   color: white;
+   font-family: sans-serif;
+   width: 163px;
+   font-size: 25px;
+   font-weight: 400;
+   padding: 29px;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background-color: white;
+   color: #d0e8f2;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.contact-me {
+	padding: 30px 0 30px 0;
+}
+
+.footer-link {
+	margin-left: 50px;
+	margin-right: 50px;
+	text-decoration: none;
+}
+
+.footer-link:hover {
+    color: brown;
+}
+
+.copyright {
+	color: brown;
+}
+
